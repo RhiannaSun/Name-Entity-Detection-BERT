@@ -1,8 +1,7 @@
-# CS5740 final
 
-In this project, we built a named-entity recognizer for Twitter text. 
-Given a tweet, the tokenizer can identify sub-spans of words that represent named entities: B (beginning of the named entity), I (continuation of a named entity), or O (token that is not part of a named entity). We trained the model with annotated raw tweets data as describe in Section \ref{sec:data}. \\
-We built the tokenizer on the BERT (Bidirectional Encoder Representations from Transformers), the state-of-art pre-trained language representation model proved to give faster and better performance on language task.
+In this project, a named-entity recognizer for Twitter text was built. 
+Given a tweet, the tokenizer can identify sub-spans of words that represent named entities: B (beginning of the named entity), I (continuation of a named entity), or O (token that is not part of a named entity). We trained the model with annotated raw tweets data. \\
+We trained the tokenizer on the BERT (Bidirectional Encoder Representations from Transformers), the state-of-art pre-trained language representation model proved to give faster and better performance on language task.
 We experiment on three pretrained model: BERT base, BERT large and RoBERTa. F1 score is used to evaluate the performance of model. 
 
 
